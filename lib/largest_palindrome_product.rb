@@ -12,11 +12,10 @@ def largest_palindrome_product
       if c.to_s == c.to_s.reverse
         palindrome = palindrome.push(c)
       end
-      palindrome
     end
   end
   palindrome.sort.last
-  
+
 end
 
 largest_palindrome_product()
